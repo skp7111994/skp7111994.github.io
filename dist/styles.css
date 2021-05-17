@@ -1,0 +1,97 @@
+/* CSS Reset */
+* {
+  box-sizing: border-box !important;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 3.16vw;
+}
+a {
+  cursor: pointer;
+  color: inherit;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(to right top, #1d2f6f, #8390fa);
+  color: #fff;
+  background: url('assets/elliott-engelmann-DjlKxYFJlTc-unsplash.jpg') no-repeat;
+  background-size: cover;
+}
+:root {
+}
+.main-container {
+  display: grid;
+  font-weight: 600;
+  font-size: 6rem;
+  gap: 1rem;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+header,
+section,
+footer {
+  font-size: inherit;
+  display: flex;
+}
+header {
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+section {
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem;
+  padding: 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(
+    to right top,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.1)
+  );
+  border-radius: 2rem;
+  z-index: 3;
+}
+section .content {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  gap: 0.7rem;
+}
+section .content h3 {
+  margin: 0 5%;
+}
+img[alt='profile'] {
+  width: 12rem;
+  border-radius: 50%;
+}
+#contact .icons {
+  display: flex;
+  gap: 1rem;
+}
+/* Media Queries */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  * {
+    font-size: 14px;
+  }
+  section .content h3 {
+    margin: 0 10%;
+  }
+}
+@media only screen and (min-width: 769px) {
+  * {
+    font-size: 1.12vw;
+  }
+  section .content h3 {
+    margin: 0 20%;
+  }
+}
