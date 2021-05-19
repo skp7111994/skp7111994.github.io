@@ -1,9 +1,5 @@
 body {
-  background: #333 url('../assets/captainamerica_bg.jpg') no-repeat;
+  background: url('../assets/captainamerica_bg.jpg') rgba(0, 0, 0, 0.8)
+    no-repeat;
   background-size: cover;
-}
-
-.main-container {
-  /* background-color: rgba(0, 0, 0, 0.6); */
-  min-height: 100%;
 }

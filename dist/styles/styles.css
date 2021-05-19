@@ -14,11 +14,11 @@ svg {
 }
 body {
   min-height: 100vh;
-  background: linear-gradient(to right top, #1d2f6f, #8390fa);
   color: #fff;
-  background: url('../assets/elliott-engelmann-DjlKxYFJlTc-unsplash.jpg')
-    no-repeat;
+  background: url('../assets/main_background.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
 }
 .main-container {
   display: grid;

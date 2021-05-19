@@ -1,8 +1,4 @@
 body {
-  background: url('../assets/batman_bg.jpg') no-repeat;
+  background: url('../assets/batman_bg.jpg') rgba(0, 0, 0, 0.55) no-repeat;
   background-size: cover;
-}
-
-.main-container {
-  background-color: transparent;
 }

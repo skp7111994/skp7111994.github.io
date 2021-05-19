@@ -1,7 +1,7 @@
 (function () {
   document.getElementById('hamburger-menu').addEventListener('click', (e) => {
     const item = e.target.dataset.superhero;
-    const fileName = `styles/${item.toLowerCase()}.css`;
+    const fileName = `styles/${item?.toLowerCase()}.css`;
     const fileRef = document.createElement('link');
     fileRef.setAttribute('rel', 'stylesheet');
     fileRef.setAttribute('type', 'text/css');
