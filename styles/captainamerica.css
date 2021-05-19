@@ -1,0 +1,5 @@
+body {
+  background: url('../assets/captainamerica_bg.jpg') rgba(0, 0, 0, 0.8)
+    no-repeat;
+  background-size: cover;
+}

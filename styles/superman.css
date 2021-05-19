@@ -1,0 +1,4 @@
+body {
+  background: url('../assets/superman_bg.jpg') rgba(0, 0, 0, 0.5) no-repeat;
+  background-size: cover;
+}
