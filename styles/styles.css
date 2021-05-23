@@ -117,7 +117,7 @@ ul {
 #hamburger-menu {
   display: none;
   position: absolute;
-  top: calc(1rem + 24px);
+  top: 3rem;
   background: white;
   z-index: 3;
   box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
