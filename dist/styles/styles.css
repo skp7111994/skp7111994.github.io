@@ -92,7 +92,6 @@ footer {
   bottom: 0;
   display: flex;
   width: 100%;
-  margin-top: 1.5rem;
   position: fixed;
   padding: 2.5rem 1.5rem;
 }
@@ -199,5 +198,6 @@ ul {
   }
   footer {
     position: static;
+    margin-top: 1.5rem;
   }
 }
